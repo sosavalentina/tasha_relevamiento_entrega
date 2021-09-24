@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	background-image:  url(../img/fondo.jpg);
+}
+
+main{
+	max-width: 1280px;
+	max-height: 720px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 220px;
+	background-color: #ffdd59;
+
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #ffdd59;
+}
+
+section{
+	width: 100%;
+	height: 1000px;
+	background-color: #ffffff;
+
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #ffdd59;
+}
+
+
+#uno{
+	width: 50%;
+	height: 1000px;
+	background-color: #ffffff;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#dos{
+	width: 50%;
+	height: 1000px;
+	background-color: #ffffff;
+	float: right;
+
+}
+
+
+.galeria{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 19px;
+	text-decoration: none;
+	float: right;
+	margin-right: 50px;
+	margin-top: 4%;
+	color: #ffffff;
+
+}
+
+.bienvenidos{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 25px;
+	text-decoration: none;
+	float: left;
+	margin-left: 80px;
+	margin-top: 8%;
+	color: #000000;
+}
+
+.comosoy{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 25px;
+	text-decoration: none;
+	float: right;
+	margin-top: 9%;
+	margin-right: 70%;
+	color: #000000;
+
+}
+
+.estilodemoda{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 25px;
+	text-decoration: none;
+	float: left;
+	margin-left: 80px;
+	margin-top: 1%;
+	color: #000000;
+
+}
+
+h3{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 18px;
+	text-decoration: none;
+	float: left;
+	margin-left: 35px;
+	margin-right: 40px;
+	margin-top: 4%;
+	color: #ff9f1a;
+
+}
+.texto2{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 17px;
+	text-decoration: none;
+	float: left;
+	margin-left: 70px;
+	margin-right: 100px;
+	margin-top: 2%;
+	color: #000000
+}
+
+
+ .tasha{
+ 	margin-left: 39%;
+ }
+
+.videotasha{
+	margin-top: 20px;
+	margin-left: 100px;
+    box-shadow:
+    offset 0px 0px 50px #000000;
+
+}
+.recuadro{
+	width: 400px;
+    padding: 20px;
+    margin-top: 27%;
+    margin-left: 15%;
+    margin-right: auto;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    column-count: 2;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #fed330;
+}
+
+.texto1{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 17px;
+	text-decoration: none;
+	float: left;
+	margin-left: 70px;
+	margin-right: 100px;
+	margin-top: 2%;
+	color: #000000;
+	padding: 15px;
+}
+
+.subtitulo{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 18px;
+	text-decoration: none;
+	float: left;
+	margin-left: 15%;
+	color: #000000;
+
+}
+
+.imagentasha{
+	margin-left: 100px;
+}
+
+form{
+	width: 350px;
+	height: 150px;
+	background-color: #fed330;
+	font-family: 'Urbanist', sans-serif;
+	font-size: 13px;	
+	margin-left: 18%;
+	color: #000000;
+	padding: 25px;
+}
+
+.btn{
+	width: 100px;
+	background-color: #f0932b;
+	color: #ffffff;
+	border-radius: 3px;
+	height: ;
+	font-size: 15px;
+	font-family: 'Urbanist', sans-serif;
+	margin-left: 40%
+}
+
+a{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 17px;
+	text-decoration: none;
+	color: #000000
+}
+
+
+#nombrepie{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 15px;
+	text-align: center;
+	padding: 18px;
+	margin-right: 33%;
+	
+}
+
+#dvplus{
+	width: 30%;
+	margin-left: 3%;
+	margin-bottom: 1.5;
+	padding: 1%;
+	float: left;
+
+}
+
+#logouces{
+	float: right;
+	margin-top: 1%;
+	margin-right: 5%;
+}
+
+
+.videotasha{
+  box-shadow: 30px 10px 20px #aaa; 
+  border-radius: 10px;  
+  background-color: #000000;
+}
+
+.fotos{
+	margin-top: 4%;
+
+}
+
+.fotosub{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 20px;
+	margin-top: 20%;
+	color: #000000;
+}
+
+.fototexto{
+	font-family:'Urbanist', sans-serif; 
+	font-size: 18px;
+	margin-top: 2%;
+	color: #ff9f1a;
+}
+
+
+
+/*Small (landscape phones)*/
+@media (min-width: 576px) and (max-width: 767px){
+
+main{
+	width: 100%;
+}
+header{
+	width: 100%;
+	height: 210px;
+	background-color: #ffdd59;
+
+}
+
+
+/*Medium (landscape tablets)*/
+@media (min-width: 768px) and (max-width: 991px){
+body{background-color: yellow;}
+}
+
+
+
